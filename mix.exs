@@ -42,7 +42,7 @@ defmodule NervesSystemRpi4Intuitivo.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:github_releases, "#{@github_organization}/#{@app}"}
+        {:github_releases, "intuitivo-ai/nerves_system_rpi4-515_gst_omx"}
       ],
       build_runner_opts: build_runner_opts(),
       platform: Nerves.System.BR,
@@ -85,7 +85,7 @@ defmodule NervesSystemRpi4Intuitivo.MixProject do
       extras: ["README.md", "CHANGELOG.md"],
       main: "readme",
       assets: "assets",
-      source_ref: "v#{@version}",
+      source_ref: "v1.22.0-64",
       source_url: @source_url,
       skip_undefined_reference_warnings_on: ["CHANGELOG.md"]
     ]
