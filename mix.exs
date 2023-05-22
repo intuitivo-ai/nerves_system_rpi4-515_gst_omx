@@ -85,7 +85,7 @@ defmodule NervesSystemRpi4Intuitivo.MixProject do
       extras: ["README.md", "CHANGELOG.md"],
       main: "readme",
       assets: "assets",
-      source_ref: "v1.22.0-64",
+      source_ref: "v1.22.0",
       source_url: @source_url,
       skip_undefined_reference_warnings_on: ["CHANGELOG.md"]
     ]
