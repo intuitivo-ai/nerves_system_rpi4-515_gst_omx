@@ -3,7 +3,7 @@ defmodule NervesSystemRpi4Intuitivo.MixProject do
 
   @github_organization "intuitivo-ai"
   @app :nerves_system_rpi4_intuitivo
-  @source_url "https://github.com/intuitivo-ai/nerves_system_rpi4-515_gst_omx"
+  @source_url "https://github.com/intuitivo-ai/nerves_system_rpi4_intuitivo"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
@@ -42,7 +42,7 @@ defmodule NervesSystemRpi4Intuitivo.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:github_releases, "intuitivo-ai/nerves_system_rpi4-515_gst_omx"}
+        {:github_releases, "intuitivo-ai/nerves_system_rpi4_intuitivo"}
       ],
       build_runner_opts: build_runner_opts(),
       platform: Nerves.System.BR,
