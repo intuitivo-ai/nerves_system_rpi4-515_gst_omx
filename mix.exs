@@ -2,8 +2,8 @@ defmodule NervesSystemRpi4Intuitivo.MixProject do
   use Mix.Project
 
   @github_organization "intuitivo-ai"
-  @app :nerves_system_rpi4-515_gst_omx
-  @source_url "https://github.com/#{@github_organization}/#{@app}"
+  @app :nerves_system_rpi4
+  @source_url "https://github.com/nerves_system_rpi4-515_gst_omx/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
