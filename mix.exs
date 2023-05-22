@@ -3,7 +3,7 @@ defmodule NervesSystemRpi4Intuitivo.MixProject do
 
   @github_organization "intuitivo-ai"
   @app :nerves_system_rpi4_intuitivo
-  @source_url "https://github.com/intuitivo-ai/nerves_system_rpi4_intuitivo"
+  @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
@@ -42,7 +42,7 @@ defmodule NervesSystemRpi4Intuitivo.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:github_releases, "intuitivo-ai/nerves_system_rpi4_intuitivo"}
+        {:github_releases, "#{@github_organization}/#{@app}"}
       ],
       build_runner_opts: build_runner_opts(),
       platform: Nerves.System.BR,
@@ -85,7 +85,7 @@ defmodule NervesSystemRpi4Intuitivo.MixProject do
       extras: ["README.md", "CHANGELOG.md"],
       main: "readme",
       assets: "assets",
-      source_ref: "v1.22.0",
+      source_ref: "v#{@version}",
       source_url: @source_url,
       skip_undefined_reference_warnings_on: ["CHANGELOG.md"]
     ]
