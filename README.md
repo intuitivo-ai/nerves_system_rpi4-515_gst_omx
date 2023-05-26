@@ -1,4 +1,4 @@
-# Raspberry Pi 4 Model B (64-bit)
+# Raspberry Pi 4 Model B Intuitivo (64-bit)
 
 [![CircleCI](https://circleci.com/gh/nerves-project/nerves_system_rpi4.svg?style=svg)](https://circleci.com/gh/nerves-project/nerves_system_rpi4)
 [![Hex version](https://img.shields.io/hexpm/v/nerves_system_rpi4.svg "Hex version")](https://hex.pm/packages/nerves_system_rpi4)
@@ -30,7 +30,7 @@ This is the base Nerves System configuration for the Raspberry Pi 4 Model B.
 ## Using
 
 The most common way of using this Nerves System is create a project with `mix
-nerves.new` and to export `MIX_TARGET=rpi4`. See the [Getting started
+nerves.new` and to export `MIX_TARGET=rpi4_intuitivo`. See the [Getting started
 guide](https://hexdocs.pm/nerves/getting-started.html#creating-a-new-nerves-app)
 for more information.
 
